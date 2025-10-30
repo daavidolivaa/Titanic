@@ -6,12 +6,14 @@ public class Botes {
     private static Pasajeros[] pasajeros;
     private static ServicioEmergencia servicioEmergencia;
 
+    public static final String NUM_BOTE = "BXX";
+
     public static void main(String[] args) {
 
         if (args.length > 0)
             nombre = args[0];
         else
-            nombre = "BXX";
+            nombre = NUM_BOTE;
 
         cantidad = (int) (Math.random() * 100) + 1;
         pasajeros = new Pasajeros[cantidad];
