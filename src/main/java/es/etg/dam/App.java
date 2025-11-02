@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class App {
 
     private static final String JAVA = "java";
     private static final String CP = "-cp";

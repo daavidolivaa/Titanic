@@ -10,13 +10,13 @@ public class Pasajeros {
         int n = (int) (Math.random() * 3);
         switch (n) {
             case 0:
-                genero = 'H';
+                genero = ServicioEmergencia.HOMBRE;
                 break;
             case 1:
-                genero = 'M';
+                genero = ServicioEmergencia.MUJER;
                 break;
             case 2:
-                genero = 'N';
+                genero = ServicioEmergencia.NINO;
                 break;
         }
     }
